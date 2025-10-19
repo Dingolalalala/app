@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Open When… Letters</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Open When… Letters</h1>
+  <p>Click a letter to open it!</p>
+
+  <div class="letters">
+    <div class="letter" data-file="letters/letter1.html">Open When You’re Sad</div>
+    <div class="letter" data-file="letters/letter2.html">Open When You Need a Laugh</div>
+    <div class="letter" data-file="letters/letter3.html" data-password="friend123">Open When You Want a Surprise</div>
+  </div>
+
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span id="close">&times;</span>
+      <iframe id="letterFrame" src="" frameborder="0"></iframe>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
